@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turn Tracker</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h1>Turn Tracker</h1>
+
+  <div class="player">
+    <form>
+        <label for="pname">Player's Name:</label>                
+        <input id="pname"/><br><br>
+    </form>
+    
+    <button id="addPlayer" onclick="clearFields()">Add Player!</button><br><br>
+
+    <div id="button" onclick="myFunction()">
+    <button id="startGame" onclick="myFunction()">Start Game!</button>
+    <button id="reset">Reset Game!</button>
+    <button type="next">Next Player!</button>
+    </div>
+    
+    <div id="players">
+        <h2>Player Names</h2>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
